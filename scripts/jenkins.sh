@@ -8,8 +8,8 @@ sudo apt install fontconfig openjdk-17-jre -y
 sudo rm -f /usr/share/keyrings/jenkins-keyring.asc
 sudo rm -f /etc/apt/sources.list.d/jenkins.list
 
-# Download the Jenkins GPG key (curl is more reliable here than wget -O)
-sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key \
+# Download the Jenkins GPG key
+sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key \
   -o /usr/share/keyrings/jenkins-keyring.asc
 
 # Add the Jenkins repo
